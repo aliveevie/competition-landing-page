@@ -1,8 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const toggleBtn = document.getElementById('toggleBtn');
-    const nav = document.querySelector('.nav');
+    const toggleBtns = document.querySelectorAll('.toggle-btn');
+    const nav = document.querySelector('.header-m');
 
-    toggleBtn.addEventListener('click', function () {
-        nav.classList.toggle('active');
+    toggleBtns.forEach((btn) => {
+        btn.addEventListener('click', function () {
+            nav.classList.toggle('active');
+        });
     });
 });
