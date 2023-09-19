@@ -81,6 +81,139 @@ body {
     
 }
 
+
+.title{
+    display: flex;
+    position: absolute;
+    width: 597px;
+    height: 98px;
+    left: 128px;
+    top: 200px;
+    
+}
+
+.title h2{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 98px;
+    color: white;
+}
+
+.hack{
+    top: 250px;
+}
+
+.one {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 98px;
+    color: #d434fe
+}
+
+.globe{
+    position: absolute;
+    top: 0;
+    left: 250px;
+}
+
+.fire{
+    position: absolute;
+    top: 50px;
+    left: 320px;
+}
+
+.fire:last-child{
+    top: 40px
+}
+
+.text{
+    position: absolute;
+    top: 370px;
+    left: 128px;
+    color: white;
+
+
+}
+
+.tech{
+    /* Title */
+
+
+
+/* getlinked Tech */
+
+position: absolute;
+width: 597px;
+height: 98px;
+left: 128px;
+top: 340px;
+
+font-family: 'Clash Display';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 98px;
+
+color: #FFFFFF;
+
+
+
+/* Hackathon 1.0 */
+
+position: absolute;
+width: 569px;
+height: 98px;
+left: 131px;
+top: 431px;
+
+font-family: 'Clash Display';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 98px;
+
+color: #FFFFFF;
+
+
+
+/* 1f4a5 */
+
+position: absolute;
+width: 58px;
+height: 58px;
+left: 792px;
+top: 454px;
+
+background: url(1f4a5.png);
+
+
+/* chain-9365116-7621444 */
+
+position: absolute;
+width: 86px;
+height: 86px;
+left: 706px;
+top: 440px;
+
+background: url(chain-9365116-7621444.png);
+
+
+/* Creative 1 */
+
+position: absolute;
+width: 53px;
+height: 73px;
+left: 644px;
+top: 293px;
+
+background: url(Creative);
+
+}
+
 /* Hide navigation links on mobile */
 @media screen and (max-width: 768px) {
     .mobile-header{
