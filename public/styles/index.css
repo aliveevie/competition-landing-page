@@ -14,7 +14,7 @@ body {
 
 /* Style for the navigation links */
 .nav{
-    margin-left: 200px;
+    margin-right: 150px;
 }
 
 .nav ul {
@@ -47,6 +47,9 @@ body {
     line-height: 17px;
     color: #FFFFFF;
     height: 50px;
+    position: absolute;
+    right: 25px; /* Position the button on the right side */
+    top: 20px; 
 }
 
 .buttons-header{
@@ -55,6 +58,20 @@ body {
 
 .close{
     display: none;
+}
+
+.revolution{
+   /* Igniting a Revolution in HR Innovation */
+        position: absolute;
+        left: calc(50% - 700px/2 + 200px);
+        font-family: 'Times';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 44px;
+        color: #FFFFFF;
+
+
 }
 
 /* Hide navigation links on mobile */
