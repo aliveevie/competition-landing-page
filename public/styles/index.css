@@ -143,6 +143,27 @@ body {
     left: 128px;
 }
 
+
+.timer{
+    display: flex;
+    position: absolute;
+    top: 500px;
+    left: 128px;
+    color: white;
+    font-size: 20px;
+}
+
+.logo{
+ margin-left: 80px;
+}
+
+.boy-tech{
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    background-image: url('boy-bg.svg');
+}
+
 .tech{
     /* Title */
 

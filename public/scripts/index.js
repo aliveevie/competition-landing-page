@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+    
     const toggleBtns = document.querySelectorAll('.toggle-btn');
     const nav = document.querySelector('.header-m');
 
@@ -7,4 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
             nav.classList.toggle('active');
         });
     });
+
+
+    
 });
