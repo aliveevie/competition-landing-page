@@ -47,13 +47,14 @@ body {
     line-height: 17px;
     color: #FFFFFF;
     height: 50px;
-    position: absolute;
-    right: 25px; /* Position the button on the right side */
-    top: 20px; 
+   
 }
 
 .buttons-header{
     display: block;
+    position: absolute;
+    right: 25px; /* Position the button on the right side */
+    top: 20px; 
 }
 
 .close{
@@ -78,7 +79,6 @@ body {
     height: 11.04px;
     left: 1000px;
     top: 170px;
-    
 }
 
 
@@ -135,8 +135,12 @@ body {
     top: 370px;
     left: 128px;
     color: white;
+}
 
-
+.reg-button{
+    position: absolute;
+    top: 450px;
+    left: 128px;
 }
 
 .tech{
