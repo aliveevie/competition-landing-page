@@ -70,8 +70,15 @@ body {
         font-size: 30px;
         line-height: 44px;
         color: #FFFFFF;
+}
 
-
+.line{
+    position: absolute;
+    width: 253px;
+    height: 11.04px;
+    left: 1000px;
+    top: 170px;
+    
 }
 
 /* Hide navigation links on mobile */
