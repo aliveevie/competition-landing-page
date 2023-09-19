@@ -4,9 +4,6 @@ body {
     background-color: #180e2e;
 }
 
-
-
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -33,6 +30,21 @@ body {
     color: #fff;
 }
 
+.mobile-header{
+    display: none;
+}
+
+.buttons{
+    width: 152px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
 /* Hide navigation links on mobile */
 @media screen and (max-width: 768px) {
     .nav {
@@ -54,4 +66,9 @@ body {
     .nav li {
         margin: 10px 0;
     }
+    .mobile-header{
+        display: block;
+    }
 }
+
+
