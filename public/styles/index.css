@@ -175,7 +175,30 @@ body {
     display: flex;
     position: absolute;
     top: 700px;
-    left: 200px;
+    left: 220px;
+}
+
+.globe-text {
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+   
+}
+
+.globe-text img{
+    position: relative;
+    top: -55px;
+    left: 290px;
+}
+
+.tech-hack{
+    position: relative;
+    top: 25px;
+    left: -280px;
+    font-family: 'Clash Display';
+    font-style: normal;
+    color: #d434fe
+    
 }
 
 
