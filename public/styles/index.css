@@ -593,9 +593,60 @@ body {
     color: #FFFFFF;
 }
 
-
 .privacy-text span{
     color: #D434FE;
+}
+
+.privacy-box{
+    position: absolute;
+    left: 150px;
+    width: 500;
+    height: 700;
+    border: 1px solid #D434FE;
+    padding: 70px;
+}
+
+.privacy-box p {
+    width: 425px;
+    height: 180px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.privacy-box h3{
+    width: 136px;
+    height: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 216.4%;
+    color: #D434FE;
+}
+
+.privacy-box span{
+    color: white;
+}
+
+.privacy-box ul{
+    width: 401px;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.privacy-box button{
+    position: relative;
+    top: 50px;
+    left: calc(50% - 250);
 }
 
 
