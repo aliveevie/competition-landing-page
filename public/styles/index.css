@@ -179,26 +179,27 @@ body {
 }
 
 .globe-text {
-    position: relative;
+   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
    
 }
 
 .globe-text img{
-    position: relative;
-    top: -55px;
-    left: 290px;
+    font: optional;
 }
 
 .tech-hack{
-    position: relative;
-    top: 25px;
-    left: -280px;
+    
     font-family: 'Clash Display';
     font-style: normal;
     color: #d434fe
     
+}
+
+.tech-text{
+    
+    color: white;
 }
 
 
