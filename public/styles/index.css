@@ -150,7 +150,87 @@ body {
     top: 500px;
     left: 128px;
     color: white;
-    font-size: 20px;
+    width: 285px;
+    height: 85px;
+    font-family: 'Unica One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 133%;
+
+}
+
+.time{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50%;
+    position: relative;
+    left: -15px;
+    top: -5px;
+}
+
+.hours{
+    /* Countdown time */
+
+
+
+
+/* 00 00 00 */
+
+
+
+
+
+/* H */
+
+position: absolute;
+width: 11px;
+height: 19px;
+left: 194px;
+top: 818px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 133%;
+/* identical to box height, or 19px */
+
+color: #FFFFFF;
+
+
+
+/* M */
+
+
+
+
+/* identical to box height, or 19px */
+
+color: #FFFFFF;
+
+
+
+/* S */
+
+position: absolute;
+width: 9px;
+height: 19px;
+left: 413px;
+top: 822px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 133%;
+/* identical to box height, or 19px */
+
+color: #FFFFFF;
+
+
 }
 
 .logo{

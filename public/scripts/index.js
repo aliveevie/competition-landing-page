@@ -12,3 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     
 });
+
+// Set the target countdown time (in seconds)
+
