@@ -565,6 +565,41 @@ body {
     top: -200px;
 }
 
+.privacy{
+    position: absolute;
+    top: 6300px;
+    left: 128px;
+}
+
+.privacy-text  h2 {
+    width: 300px;
+    height: 78px;
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.privacy-text p {
+    width: 438px;
+    height: 52px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+
+.privacy-text span{
+    color: #D434FE;
+}
+
+
+
 
 
 
