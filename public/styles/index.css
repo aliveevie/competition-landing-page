@@ -178,30 +178,44 @@ body {
     left: 220px;
 }
 
-.globe-text {
-   
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-   
+.globe-text h2 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+    color: #FFFFFF;
+    
+}
+
+.globe-text p{
+    position: relative;
+    top: -80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 535px;
+    height: 165px;
+}
+
+.globe-text span{
+    color: #d434fe;
 }
 
 .globe-text img{
-    font: optional;
+    position: relative;
+    top: -100px;
+    left: 400px;
+
 }
 
-.tech-hack{
-    
-    font-family: 'Clash Display';
-    font-style: normal;
-    color: #d434fe
-    
+.tech-globe{
+    position: relative;
+    left: -100px;
 }
-
-.tech-text{
-    
-    color: white;
-}
-
 
 .logo{
     margin-left: 80px;
@@ -224,81 +238,72 @@ body {
     left: 500px;
 }
 
+.girl-tech{
+    position: absolute;
+    top: 1300px;
+    left: 128px;
+    color: white;
+    display: flex;
+}
+
+.girl-tech h2{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.girl-tech img{
+    position: relative;
+    top: 50px;
+    left: 300px;
+}
+
+.girl-pic{
+    position: relative;
+    top: -100px;
+    left: -300px;
+}
 
 
-.tech{
-    /* Title */
+.girl-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
 
+.girl-text span {
+    color: #d434fe;
+}
 
+.judging{
+    position: absolute;
+    top: 2200px;
+    left: 130px;
+    display: flex;
+}
 
-/* getlinked Tech */
+.judges-text{
+    position: relative;
+    top: -200px;
+}
 
-position: absolute;
-width: 597px;
-height: 98px;
-left: 128px;
-top: 340px;
+.judges-text h2{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
 
-font-family: 'Clash Display';
-font-style: normal;
-font-weight: 700;
-font-size: 80px;
-line-height: 98px;
-
-color: #FFFFFF;
-
-
-
-/* Hackathon 1.0 */
-
-position: absolute;
-width: 569px;
-height: 98px;
-left: 131px;
-top: 431px;
-
-font-family: 'Clash Display';
-font-style: normal;
-font-weight: 700;
-font-size: 80px;
-line-height: 98px;
-
-color: #FFFFFF;
-
-
-
-/* 1f4a5 */
-
-position: absolute;
-width: 58px;
-height: 58px;
-left: 792px;
-top: 454px;
-
-background: url(1f4a5.png);
-
-
-/* chain-9365116-7621444 */
-
-position: absolute;
-width: 86px;
-height: 86px;
-left: 706px;
-top: 440px;
-
-background: url(chain-9365116-7621444.png);
-
-
-/* Creative 1 */
-
-position: absolute;
-width: 53px;
-height: 73px;
-left: 644px;
-top: 293px;
-
-background: url(Creative);
-
+.judges-text span{
+    color:  #d434fe;
 }
 
 /* Hide navigation links on mobile */
