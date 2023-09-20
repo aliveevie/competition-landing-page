@@ -154,15 +154,27 @@ body {
 }
 
 .logo{
- margin-left: 80px;
+    margin-left: 80px;
 }
 
-.boy-tech{
+.boy-tech {
     position: absolute;
     top: 200px;
-    left: 700px;
-    background-image: url('boy-bg.svg');
+    left: 150px;
+    display: flex;
 }
+
+.ball {
+    position: absolute;
+    left: 500px;
+}
+
+.boy{
+    position: absolute;
+    left: 500px;
+}
+
+
 
 .tech{
     /* Title */
