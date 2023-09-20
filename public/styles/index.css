@@ -438,6 +438,7 @@ body {
     border-radius: 26.5px;
 }
 
+
 .circleone p{
     font-family: 'Montserrat';
     font-style: normal;
@@ -446,7 +447,10 @@ body {
     line-height: 29px;
     color: #FFFFFF;
     padding: 10px;
+    padding-top: 15px;
+    padding-right: 20px;
     margin: 10px;
+   
 }
 
 .annou1 h2{
@@ -468,12 +472,35 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 170.9%;
-
-
     color: #FFFFFF;
 
-
 }
+
+.annou1 h3{
+    position: relative;
+    left: 500px;
+    top: -220px;
+    width: 343px;
+    height: 29px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #D434FE;
+}
+
+.prize{
+    position: absolute;
+    top: 4700px;
+    left: 128px;
+    display: flex;
+}
+
+.prize-text{
+    color: white;
+}
+
 
 
 
