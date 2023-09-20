@@ -325,6 +325,14 @@ body {
     position: relative;
 }
 
+.questions{
+    position: absolute;
+    top: 3000px;
+    left: 128px;
+    color: white;
+    display: flex;
+}
+
 /* Hide navigation links on mobile */
 @media screen and (max-width: 768px) {
     .mobile-header{
