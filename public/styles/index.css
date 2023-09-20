@@ -1,5 +1,3 @@
-/* Basic styling for header */
-/* Set the background color of the body */
 body {
     background-color: #180e2e;
 }
@@ -416,7 +414,7 @@ body {
 .annoucement{
     position: relative;
     top: 150px;
-    left: 150px;
+    left: 130px;
 }
 
 .separator {
@@ -493,14 +491,79 @@ body {
 .prize{
     position: absolute;
     top: 4700px;
-    left: 128px;
+    left: 100px;
     display: flex;
 }
 
-.prize-text{
-    color: white;
+.prize-text h2 { 
+    width: 174px;
+    height: 78px;
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
 }
 
+.prize-text h2 span {
+    color: #D434FE
+}
+
+.prize-text p{
+    width: 401px;
+    height: 51px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.prize-pic img{
+    position: relative;
+    top: 300px;
+}
+
+.partners{
+    position: absolute;
+    top: 5700px;
+    display: flex;
+}
+
+.partners-text{
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 200px;
+}
+
+.partners-text h2{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.partners-text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.partners-text img {
+    position: relative;
+    top: -200px;
+}
 
 
 
