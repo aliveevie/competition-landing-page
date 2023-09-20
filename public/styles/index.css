@@ -662,6 +662,75 @@ body {
     top: -400px;
 }
 
+footer{
+    position: absolute;
+    top: 7300px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.container{
+    position: absolute;
+    left: 128px;
+}
+
+.container p {
+    width: 412px;
+    height: 63px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.terms{
+    display: flex;
+}
+
+.term-sep{
+    position: relative;
+    top: 0;
+    right: 20px;
+    height: 20px;
+    border-left: 2px solid #D434FE;
+}
+
+.terms a{
+    text-decoration: none;
+    width: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.links{
+    position: relative;
+    left: 800px;
+}
+.links ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links li{
+    margin-bottom: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+}
+
+.links h3{
+    color: #d434fe
+}
 
 @media screen and (max-width: 768px) {
     .mobile-header{
