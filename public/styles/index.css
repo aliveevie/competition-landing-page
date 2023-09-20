@@ -397,6 +397,19 @@ body {
     cursor: pointer;
 }
 
+.timeline{
+    position: absolute;
+    top: 3700px;
+    left: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline-text{
+    color: white;
+    text-align: center;
+}
 
 
 
