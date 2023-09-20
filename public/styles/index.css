@@ -327,10 +327,62 @@ body {
 
 .questions{
     position: absolute;
-    top: 3000px;
+    top: 2900px;
     left: 128px;
-    color: white;
     display: flex;
+}
+
+.question-text h2{
+    width: 253px;
+    height: 86px;
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+    color: #FFFFFF;
+
+}
+
+.question-text span{
+    color: #d434fe;
+}
+
+.question-text p{
+    width: 342px;
+    height: 55px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.interview{
+    position: relative;
+    left: 80px;
+}
+
+.mark{
+    /* ? */
+
+position: absolute;
+width: 114px;
+height: 71px;
+left: 600px;
+top: -100px;
+
+font-family: 'MADE TOMMY Outline';
+font-style: normal;
+font-weight: 500;
+font-size: 96px;
+line-height: 28px;
+/* or 29% */
+
+color: #A866FD;
+
+
 }
 
 /* Hide navigation links on mobile */
