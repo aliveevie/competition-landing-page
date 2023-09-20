@@ -365,25 +365,40 @@ body {
 }
 
 .mark{
-    /* ? */
-
-position: absolute;
-width: 114px;
-height: 71px;
-left: 600px;
-top: -100px;
-
-font-family: 'MADE TOMMY Outline';
-font-style: normal;
-font-weight: 500;
-font-size: 96px;
-line-height: 28px;
-/* or 29% */
-
-color: #A866FD;
-
-
+    position: absolute;
+    width: 114px;
+    height: 71px;
+    left: 600px;
+    top: -100px;
+    font-family: 'MADE TOMMY Outline';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 28px;
+    color: #A866FD;
 }
+
+.qa {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #A866FD;
+}
+
+
+.ans{
+    display: none;
+}
+
+.answer{
+    position: relative;
+    top: 35px;
+    left: 325px;
+    color: #A866FD;
+    cursor: pointer;
+}
+
+
+
 
 /* Hide navigation links on mobile */
 @media screen and (max-width: 768px) {
