@@ -569,6 +569,7 @@ body {
     position: absolute;
     top: 6300px;
     left: 128px;
+    display: flex;
 }
 
 .privacy-text  h2 {
@@ -599,11 +600,12 @@ body {
 
 .privacy-box{
     position: absolute;
-    left: 150px;
-    width: 500;
-    height: 700;
+    left: 50px;
+    width: 300;
+    height: 500;
     border: 1px solid #D434FE;
-    padding: 70px;
+    padding: 60px;
+   
 }
 
 .privacy-box p {
@@ -649,12 +651,18 @@ body {
     left: calc(50% - 250);
 }
 
+.privacy-images{
+    position: absolute;
+    top: 0;
+    left: 700px;
+}
+
+.lock{
+    position: relative;
+    top: -400px;
+}
 
 
-
-
-
-/* Hide navigation links on mobile */
 @media screen and (max-width: 768px) {
     .mobile-header{
         display: block;
