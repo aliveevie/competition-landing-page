@@ -283,14 +283,14 @@ body {
 
 .judging{
     position: absolute;
-    top: 2200px;
+    top: 2000px;
     left: 130px;
     display: flex;
 }
 
 .judges-text{
     position: relative;
-    top: -200px;
+    top: -150px;
 }
 
 .judges-text h2{
@@ -304,6 +304,25 @@ body {
 
 .judges-text span{
     color:  #d434fe;
+}
+
+.judges-text p{
+    width: 400px;
+    height: fit-content;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 173.5%;
+    color: white;
+}
+
+.judges-text p span{
+    color: #e223a6;
+}
+
+.judges{
+    position: relative;
 }
 
 /* Hide navigation links on mobile */
