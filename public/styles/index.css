@@ -847,6 +847,7 @@ footer{
     margin-bottom: 20px;
 }
 
+
 .form-contact form {
     display: flex;
     flex-direction: column;
@@ -863,6 +864,8 @@ footer{
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
+    background-color: #180e2e;
+    color: white;
 }
 
 
