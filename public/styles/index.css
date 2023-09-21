@@ -877,7 +877,7 @@ footer{
     display: block;
     background-color: #1d152f;
     padding: 50px;
-    width: 500;
+    width: 700;
     height: 520;
     margin-bottom: 100px;
 }
@@ -888,9 +888,67 @@ footer{
     color: #d434fe;
 }
 .register-form h2{
-    font-size: 35px;
+    font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+}
+
+.register-form form{
+    display: block;
+}
+
+.register-form label{
+    display: block;
+    margin-top: 10px;
+}
+
+.register-form input[type="text"],
+select {
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #180e2e;
+    color: white;
+    margin-right: 10px;
+}
+
+.register-form input[type="submit"]{
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.register-form label{
+    color: white;
+}
+
+
+
+.register-form input{
+    margin-right: 10px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-row input{
+    margin-right: 10px;
+}
+
+.form-column {
+    margin-left: 10px;
+}
+
+.form-column input{
+    margin-right: 10px;
+}
+
+.form-column {
+    flex: 1;
+    margin-right: 10px;
 }
 
 .boys-walk{
@@ -904,6 +962,13 @@ footer{
 .boys-walk span{
     color: #d434fe
 }
+
+.checked-box{
+    display: flex;
+    color: white;
+    font-size: smaller;
+}
+
 
 .boys-walk img{
     position: relative;

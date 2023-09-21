@@ -35,13 +35,57 @@
     <div class="register-form" >
         <h3>Register</h3>
         <div class="boys-walk" >
-            <p>Be part of this movement <span>............... </span></p>
+            <p>Be part of this movement! <span>............... </span></p>
             <img  src="../icons/walk1.svg" alt="walking girl" />
             <img src="../icons/walk2.svg" />
         </div>
         <h2>CREATE YOUR ACCOUNT</h2>
-        <form method="post" action="#" >
-            
+        <form method="post" action="/register">
+            <div class="form-row" >
+                <div class="form-column" >
+                    <label for="name">Team's Name</label>
+                    <input name="name" placeholder="Enter the name of your group" type="text" />
+                </div>
+                <div class="form-column">
+                    <label for="phone">Phone</label>
+                    <input name="phone" placeholder="Enter your phone number" type="text" />
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-column">
+                    <label for="email">Email</label>
+                    <input name="email" placeholder="Enter your email address" type="text" />
+                </div>
+                <div class="form-column">
+                    <label for="topic">Project Topic</label>
+                    <input name="email" placeholder="Enter your project topic" type="text" />
+                </div>
+            </div>
+    
+            <div class="form-row">
+                <div class="form-column">
+                    <label for="category">Category</label>
+                    <select name="Select your Category">
+                        <option value="option1">Category 1</option>
+                        <option value="option2">Category 2</option>
+                    </select>
+                </div>
+                <div class="form-column">
+                    <label for="groupsize">Group Size</label>
+                    <select name="groupsize">
+                        <option value="size1">Size 1</option>
+                        <option value="size2">Size 2</option>
+                       
+                    </select>
+                </div>
+            </div>
+            <p>Please review your registration details before submitting</p>
+            <div class="checked-box" >
+                <input  type="checkbox" >
+                <p>I agreed with the event terms and conditions  and privacy policy</p>
+            </div>
+            <input name="submit" type="submit" class="buttons" />
         </form>
     </div>
     </div>
