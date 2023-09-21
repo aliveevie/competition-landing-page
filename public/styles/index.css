@@ -859,6 +859,7 @@ footer{
     text-align: left;
 }
 
+
 .form-contact input[type="text"],
 .form-contact textarea {
     width: 100%;
@@ -868,6 +869,13 @@ footer{
     color: white;
 }
 
+.register{
+    display: flex;
+}
+
+.register-form{
+    display: flex;
+}
 
 @media screen and (max-width: 768px) {
     .mobile-header{
