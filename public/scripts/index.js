@@ -31,8 +31,11 @@ qaElements.forEach(function(qaElement) {
 
 
 
-    
 });
+
+
+// Number of stars you want to generate
+
 
 // Set the target countdown time (in seconds)
 

@@ -984,6 +984,29 @@ select {
 
 }
 
+/* Define the keyframes for the color change animation */
+@keyframes colorChange {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+  
+  /* Apply the animation to the .stars img element */
+  .stars {
+    animation: colorChange 5s linear infinite; /* Change the duration (5s) to control the speed of the color change */
+  }
+
+  .star1{
+    position: relative;
+    top: 400px;
+  }
+
+ 
+  
+
 @media screen and (max-width: 768px) {
     .mobile-header{
         display: block;
