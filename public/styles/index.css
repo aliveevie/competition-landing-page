@@ -874,7 +874,43 @@ footer{
 }
 
 .register-form{
+    display: block;
+    background-color: #1d152f;
+    padding: 50px;
+    width: 500;
+    height: 520;
+    margin-bottom: 100px;
+}
+
+.register-form h3{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #d434fe;
+}
+.register-form h2{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.boys-walk{
     display: flex;
+}
+
+.boys-walk p{
+    color: white;
+}
+
+.boys-walk span{
+    color: #d434fe
+}
+
+.boys-walk img{
+    position: relative;
+    top: -13px;
+    left: -50px;
+    margin-right: -10px;
+
 }
 
 @media screen and (max-width: 768px) {
