@@ -45,7 +45,7 @@ body {
     line-height: 17px;
     color: #FFFFFF;
     height: 50px;
-   
+    cursor: pointer;
 }
 
 .buttons-header{
@@ -138,7 +138,7 @@ body {
 .reg-button{
     position: absolute;
     top: 450px;
-    left: 128px;
+    left: 300px;
 }
 
 
@@ -967,6 +967,12 @@ select {
     display: flex;
     color: white;
     font-size: smaller;
+}
+
+.caution{
+    color: red;
+    font-size: smaller;
+    font-style: italic;
 }
 
 
