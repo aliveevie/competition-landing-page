@@ -1762,6 +1762,7 @@ footer{
 .form-contact{
     position: relative;
     left: -80px;
+    top: -150px;
     display: block;
     background-color: transparent;
     padding: 50px;
@@ -1771,36 +1772,17 @@ footer{
     height: 520;
 }
 
-.form-contact h3 {
-    font-size: 24px;
-    color: #d434fe;
-    text-align: left;
-    margin-bottom: 20px;
+.paras, .back-button{
+    display: block;
+}
+.back-button{
+    position: relative;
+    top: -150px;
+    left: -230px;
+    cursor: pointer;
 }
 
 
-.form-contact form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.form-contact label {
-    margin-bottom: 5px;
-    text-align: left;
-}
-
-
-.form-contact input[type="text"],
-.form-contact textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #180e2e;
-    color: white;
-}
-
-  
 
 }
 
