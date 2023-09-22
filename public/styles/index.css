@@ -513,10 +513,22 @@ a{
     margin-top: 0;
 }
 
+.mobile-text{
+    display: none;
+}
+
 .annou2{
     position: relative;
     top: 20px;
 }
+
+
+.mobile-annoucement{
+    display: none;
+}
+
+
+
 .prize{
     position: absolute;
     top: 5000px;
@@ -1371,7 +1383,13 @@ select {
         top: 200px;
         left: -80px;
     }
+    .desktop-annoucement{
+        display: none;
+    }
 
+    .mobile-annoucement{
+        display: block;
+    }
 
     .timeline{
         position: absolute;
@@ -1389,12 +1407,282 @@ select {
         height: fit-content;
     }
 
-    .prize{
-        position: absolute;
-        top: 6000px;
-        left: 200px;
-
+   
+   .separator {
+    height: 100px;
+    border-left: 2px solid #D434FE;;
+    position: relative;
+    left: 20px;
+    top: -100px;
 }
+
+.circleone{
+    position: relative;
+    left: -5px;
+    top: -100px;
+    background-color: #D434FE;
+    width: 53px;
+    height: 53px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+    border-radius: 26.5px;
+}
+
+.circleone p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding: 13px;
+    padding-top: 15px;
+    padding-right: 20px;
+    margin: 10px;
+    width: 16px;
+    height: 29px;
+    position: relative;
+    left: -5px;
+    top: -3px;
+}
+
+.items-hp{
+    position: absolute;
+    top: -120px;
+    left: 80px;
+    text-align: left;
+}
+
+.items-hp h2{
+    font-size: 17px;
+}
+
+.sep-cir{
+    position: relative;
+    left: 20px;
+}
+
+.right-item{
+    position: absolute;
+    top: 220px;
+    left: -540px;
+}
+
+.right-item h3{
+    font-size: 17px;
+}
+
+.prize{
+    position: absolute;
+    top: 6000px;
+    left: 100px;
+    display: block;
+}
+
+.prize img{
+    width: 300px;
+}
+
+.prize-text{
+    position: relative;
+    top: -320px;
+}
+
+.prize-text h2{
+    position: relative;
+    left: 20px;
+}
+
+.prize-text p{
+    position: relative;
+    right: 100px;
+}
+
+.prize-pic img{
+   position: relative;
+   left: -100px;
+    
+}
+
+.prize-text img{
+    position: relative;
+    top: 70px;
+    left: -100px;
+}
+
+
+.privacy{
+    position: absolute;
+    top: 7600px;
+    left: 128px;
+    display: flex;
+}
+
+
+.partners{
+    position: absolute;
+    top: 7000px;
+    left: -200px;
+    display: flex;
+}
+
+.partners img{
+    width: 400px;
+}
+
+
+
+
+
+.partners-text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 286px;
+    height: 62px;
+    position: relative;
+    left: 50px;
+}
+
+.partners-text img {
+    position: relative;
+    top: -250px;
+    left: 20px;
+}
+
+.privacy{
+    position: absolute;
+    top: 7500px;
+    left: 128px;
+    display: block;
+}
+
+.privacy-text{
+   position: relative;
+   left: -110px;
+   display: block;
+}
+
+.privacy-text h2{
+    position: relative;
+    left: 50px;
+}
+
+.privacy-text p {
+    width: 438px;
+    height: 52px;
+    position: relative;
+    left: 50px;
+}
+
+.privacy-text span{
+    color: #D434FE;
+}
+
+.privacy-box{
+    position: absolute;
+    left: 50px;
+    width: auto;
+    height: auto;
+    border: 1px solid #D434FE;
+    padding: 50px;
+   
+}
+
+.privacy-box p {
+    width: 425px;
+    height: 180px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.privacy-box h3{
+    width: 136px;
+    height: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 216.4%;
+    color: #D434FE;
+}
+
+.privacy-box span{
+    color: white;
+}
+
+.privacy-box ul{
+    width: 401px;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.privacy-box button{
+    position: relative;
+    top: 50px;
+    left: calc(50% - 250);
+}
+
+.privacy-images{
+    position: absolute;
+    top: 0;
+    left: 700px;
+}
+
+
+.lock{
+    position: relative;
+    top: -400px;
+}
+
+footer{
+    position: absolute;
+    top: 8500px;
+    display: block;
+    left: -100px;
+    text-align: left;
+}
+
+
+
+.links{
+    position: relative;
+    top: 200px;
+    left: 130px;
+    text-align: left;
+}
+
+
+
+
+.contact{
+    position: relative;
+    left: 130px;
+    top: 200px;
+    display: block;
+}
+
+.foo{
+    position: relative;
+    top: 280px;
+    left: 180px;
+    color: white;
+}
+
+
+
 }
 
 
