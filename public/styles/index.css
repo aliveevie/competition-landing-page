@@ -1197,24 +1197,188 @@ select {
         cursor: pointer;
     }
     
-    .globe-tech{
-        display: block;
-        position: absolute;
-        top: 1200px;
-        left: 220px;
-    }
-
     .boy-tech {
         position: absolute;
         top: 700px;
-        left: -520px;
+        left: -450px;
         display: flex;
         width: 300px;
     }
+    .boy-tech img{
+        width: 400px;
+    }
    
+    .line{
+        position: absolute;
+        width: 150px;
+        height: 11.04px;
+        left: 300px;
+        top: 200px;
+    }
 
+    .line img{
+        width: 100px;
+    }
 
+ 
+
+    .globe-tech{
+        display: block;
+        position: absolute;
+        top: 1100px;
+        left: 100px;
+    }
+
+    .globe-tech img:first-child{
+        width: 400px;
+        position: relative;
+        left: 20px;
+    }
+
+    .tech-cont{
+       position: relative;
+       left: -70px;
+       font-size: 20px;
+    }
+
+    .tech-cont p{
+        width: 321px;
+        height: 107px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        position: relative;
+        left: 20px;
+    }
     
+
+    .girl-tech{
+        position: absolute;
+        top: 1900px;
+        left: 50px;
+        color: white;
+        display: block;
+    }
+
+   /* Resize only the "girl-pic" image */
+    .girl-tech > .girl-pic > img {
+        width: 400px; /* Adjust the width as needed */
+    }
+
+
+    .girl-tech h2{
+        position: relative;
+        top: -200px;
+        /* Rules and Guidelines */
+        width: 107px;
+        height: 54px;
+        left: 100px;
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 133%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .girl-tech p{
+        position: relative;
+        top: -200px;
+        width: 300px;
+        height: 248px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+
+    .judging{
+        position: absolute;
+        top: 2500px;
+        left: 35px;
+        display: block;
+    }
+
+    .judging > .judges > img{
+        width: 400px;
+    }
+
+    .judges-text{
+        position: relative;
+        top: -70px;
+    }
+
+    .judges-text p{
+        font-size: 14px;
+        text-align: center;
+}
+
+    .questions{
+        position: absolute;
+        top: 3500px;
+        left: 70px;
+        display: block;
+    }
+
+
+    .question-text{
+        position: relative;
+        left: 50px;
+    }
+
+    .question-text p{
+        position: relative;
+        left: -60px;
+    }
+
+    .answer{
+        position: relative;
+        top: 35px;
+        left: -100px;
+        color: #A866FD;
+        cursor: pointer;
+    }
+
+    .qa {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #A866FD;
+        width: fit-content;
+        position: relative;
+        text-align: left;
+    }
+
+    .questions .mark img{
+        position: relative;
+        width: 50px;
+        left: -400px;
+        top: 900px;
+        display: flex;
+    }
+
+    .questions > .interview > img{
+        width: 400px;
+        position: relative;
+        top: 200px;
+        left: -80px;
+    }
+
+
+    .timeline{
+        position: absolute;
+        top: 5000px;
+        left: 128px;   
+    }
+
 }
 
 
