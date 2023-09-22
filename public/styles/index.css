@@ -522,12 +522,9 @@ a{
     top: 20px;
 }
 
-
 .mobile-annoucement{
     display: none;
 }
-
-
 
 .prize{
     position: absolute;
@@ -910,6 +907,10 @@ footer{
     color: white;
 }
 
+.paras, .back-button{
+    display: none;
+}
+
 .register{
     display: flex;
 }
@@ -941,6 +942,10 @@ footer{
 .register-form label{
     display: block;
     margin-top: 10px;
+}
+
+.reg-header{
+    display: none;
 }
 
 .register-form input[type="text"],
@@ -1681,7 +1686,121 @@ footer{
     color: white;
 }
 
+.header{
+    display: none;
+}
 
+.register{
+    display: block;
+}
+
+.man-reg img{
+    width: 400px;
+}
+
+.reg-header{
+    display: block;
+}
+
+.reg-header h3{
+    color: #d434fe;
+    text-align: left;
+}
+
+.register-form{
+    display: block;
+    margin-bottom: 100px;
+    background-color: transparent;
+}
+
+.register-form h3{
+    display: none;
+}
+
+.form-row {
+    display: block;
+    text-align: left;
+}
+
+.modal-img img {
+    width: 150px;
+}
+
+.modal-box {
+    position: fixed;
+    top: 0; /* Display the modal at the top of the viewport */
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid #d434fe;
+    width: 100%;
+    max-width: 250px;
+    max-height: 100%; /* Allow the modal to overflow to the bottom */
+    padding: 30px;
+    display: none;
+    margin-top: 30px;
+    margin-bottom: -40px;
+  }
+  
+  .modal-box.active {
+    display: block;
+  }
+
+  .form-section{
+    position: absolute;
+    top: 200px;
+    left: 128px;
+    display: block;
+}
+
+.form-text{
+    display: none;
+}
+
+
+
+
+.form-contact{
+    position: relative;
+    left: -80px;
+    display: block;
+    background-color: transparent;
+    padding: 50px;
+    color: white;
+    text-align: left;
+    width: 500;
+    height: 520;
+}
+
+.form-contact h3 {
+    font-size: 24px;
+    color: #d434fe;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.form-contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-contact label {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+
+.form-contact input[type="text"],
+.form-contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #180e2e;
+    color: white;
+}
+
+  
 
 }
 
