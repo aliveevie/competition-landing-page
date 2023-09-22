@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link  rel="stylesheet" href="../styles/index.css" />
+    
     <title>GetLinked</title>
 </head>
 <body>
@@ -40,26 +41,34 @@
             <img src="../icons/walk2.svg" />
         </div>
         <h2>CREATE YOUR ACCOUNT</h2>
-        <form method="post" action="/register">
+        <form method="post" action="/register" id="myForm" >
             <div class="form-row" >
                 <div class="form-column" >
                     <label for="name">Team's Name</label>
-                    <input name="name" placeholder="Enter the name of your group" type="text" />
+                    <input name="name" placeholder="Enter the name of your group" type="text" 
+                    required
+                    />
                 </div>
                 <div class="form-column">
                     <label for="phone">Phone</label>
-                    <input name="phone" placeholder="Enter your phone number" type="text" />
+                    <input name="phone" placeholder="Enter your phone number" type="text" 
+                    required
+                    />
                 </div>
             </div>
 
             <div class="form-row">
                 <div class="form-column">
                     <label for="email">Email</label>
-                    <input name="email" placeholder="Enter your email address" type="text" />
+                    <input name="email" placeholder="Enter your email address" type="text" 
+                    required
+                    />
                 </div>
                 <div class="form-column">
                     <label for="topic">Project Topic</label>
-                    <input name="email" placeholder="Enter your project topic" type="text" />
+                    <input name="email" placeholder="Enter your project topic" type="text" 
+                    required
+                    />
                 </div>
             </div>
     
@@ -85,12 +94,33 @@
             </div>
          
             <div class="checked-box" >
-                <input  type="checkbox" >
+                <input  type="checkbox"  required>
                 <p>I agreed with the event terms and conditions  and privacy policy</p>
             </div>
             <input name="submit" type="submit" class="buttons" />
         </form>
     </div>
     </div>
+    <div class="modal-overlay"></div>
+    <div class="modal-box" >
+        <div class="modal-img" >
+            <img src="../icons/success1.svg" alt="successiful man" class="success1" 
+            width="300" height="300"
+            />
+            <img src="../icons/success.svg"  alt="success tick"  class="success2" 
+            width="300" height="300"
+            />
+        </div>
+        <div class="modal-text" >
+            <h4>Congratulations
+                you have successfully Registered!</h4>
+            <p>
+                Yes, it was easy and you did it!
+               <br> check your mail box for next step 😃
+            </p>
+        </div>
+        <a href="/"><button class="buttons" id="closeModalButton">Back</button></a>
+    </div>
+    <script src="../scripts/register.js" ></script>
 </body>
 </html>

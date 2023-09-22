@@ -30,7 +30,7 @@ qaElements.forEach(function(qaElement) {
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Sept 23, 2023 12:00:00").getTime();
+var countDownDate = new Date("Sept 26, 2023 12:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -67,7 +67,7 @@ var x = setInterval(function() {
 });
 
 /*
- <p id="hours">00 <span class="time">H</span></p>
+                <p id="hours">00 <span class="time">H</span></p>
                 <p id="minutes">00 <span class="time">M</span></p>
                 <p id="seconds">00 <span class="time">S</span></p>
 */
