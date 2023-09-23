@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link  rel="stylesheet" href="../styles/index.css" />
+    <title>GetLinked</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="../icons/logo.svg" alt="getLinked Logo">
+        </div>
+        <div class="header-m">
+            <div class="close toggle-btn">X</div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#timeline">Timeline</a></li>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#faqs">FAQs</a></li>
+                    <li><a href="../views/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="./register.html" ><button class="buttons buttons-header">Register</button></a>
+        </div>
+        <div class="mobile-header toggle-btn">
+            <img src="./icons/mobile.svg" alt="mobile-menu" />
+        </div>
+    </header>
+    <div class="reg-header" >
+        <h3>Register</h3>
+    </div>
+    <div class="register" >
+        <div  class="man-reg">
+            <img src="../icons/man.svg" />
+        </div>
+    <div class="register-form" >
+        <h3>Register</h3>
+        <div class="boys-walk" >
+            <p>Be part of this movement! <span>............... </span></p>
+            <img  src="../icons/walk1.svg" alt="walking girl" />
+            <img src="../icons/walk2.svg" />
+        </div>
+        <h2>CREATE YOUR ACCOUNT</h2>
+        <form method="post" action="/register" id="myForm" >
+            <div class="form-row" >
+                <div class="form-column" >
+                    <label for="name">Team's Name</label>
+                    <input name="name" placeholder="Enter the name of your group" type="text" 
+                    required
+                    />
+                </div>
+                <div class="form-column">
+                    <label for="phone">Phone</label>
+                    <input name="phone" placeholder="Enter your phone number" type="text" 
+                    required
+                    />
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-column">
+                    <label for="email">Email</label>
+                    <input name="email" placeholder="Enter your email address" type="text" 
+                    required
+                    />
+                </div>
+                <div class="form-column">
+                    <label for="topic">Project Topic</label>
+                    <input name="email" placeholder="Enter your project topic" type="text" 
+                    required
+                    />
+                </div>
+            </div>
+    
+            <div class="form-row">
+                <div class="form-column">
+                    <label for="category">Category</label>
+                    <select name="Select your Category">
+                        <option value="option1">Category 1</option>
+                        <option value="option2">Category 2</option>
+                    </select>
+                </div>
+                <div class="form-column">
+                    <label for="groupsize">Group Size</label>
+                    <select name="groupsize">
+                        <option value="size1">Size 1</option>
+                        <option value="size2">Size 2</option>
+                       
+                    </select>
+                </div>
+            </div>
+            <div class="caution" >
+                <p>Please review your registration details before submitting</p>
+            </div>
+         
+            <div class="checked-box" >
+                <input  type="checkbox"  required>
+                <p>I agreed with the event terms and conditions  and privacy policy</p>
+            </div>
+            <input name="submit" type="submit" class="buttons" />
+        </form>
+    </div>
+    </div>
+    <div class="modal-overlay"></div>
+    <div class="modal-box" >
+        <div class="modal-img" >
+            <img src="../icons/success1.svg" alt="successiful man" class="success1" 
+            width="300" height="300"
+            />
+            <img src="../icons/success.svg"  alt="success tick"  class="success2" 
+            width="300" height="300"
+            />
+        </div>
+        <div class="modal-text" >
+            <h4>Congratulations
+                you have successfully Registered!</h4>
+            <p>
+                Yes, it was easy and you did it!
+               <br> check your mail box for next step 😃
+            </p>
+        </div>
+        <a href="/"><button class="buttons" id="closeModalButton">Back</button></a>
+    </div>
+    <script src="../scripts/register.js" ></script>
+</body>
+</html>
