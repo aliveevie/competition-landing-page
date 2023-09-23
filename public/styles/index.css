@@ -2,7 +2,7 @@ body {
     background-color: #180e2e;
 }
 
-.header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -147,8 +147,6 @@ a{
     cursor: pointer;
 }
 
-
-
 .timer{
     display: flex;
     position: absolute;
@@ -159,8 +157,7 @@ a{
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
-  
-
+    cursor: pointer;
 }
 #times {
     display: flex; /* Set this to flex to make its child elements flex items */
@@ -1121,13 +1118,16 @@ select {
 
 @media screen and (max-width: 768px) {
 
-
     body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center; /* Center text inside the body */
+        margin: 0;
+        overflow-x: hidden;
+        text-align: center;
+        position: relative;
+        left: -20px
+    }
+
+    header{
+        margin: 10 -10px;
     }
 
     .mobile-header{
@@ -1136,8 +1136,8 @@ select {
    
     .header-m{
         display: none;
-        width: fit-content;
-        height: fit-content;
+        width: 200px;
+        height: 200px;
         background-color: #180e2e;
         align-items: center;
         justify-content: center;
@@ -1150,7 +1150,6 @@ select {
         }
         .nav ul{
             display: block;
-          
         }
         .nav ul li{
             margin-top: 10px;
@@ -1187,25 +1186,22 @@ select {
 
      .logo{
         position: relative;
-        right: 100px
+        left: -50px
      }
 
      .title img.globe {
         width: 30px;
-        position: relative;  
+        position: relative;
     }
 
     .title.hack img{
         width: 30px;
         position: relative;
         top: 40px;
-        left: -35px;
+        left: -2px;
     }
 
-    .title h2{
-        position: relative;
-        left: -30px;
-    }
+  
 
     .reg-button{
         position: absolute;
@@ -1217,7 +1213,7 @@ select {
     .boy-tech {
         position: absolute;
         top: 700px;
-        left: -450px;
+        left: -420px;
         display: flex;
         width: 300px;
     }
@@ -1237,19 +1233,17 @@ select {
         width: 100px;
     }
 
- 
-
     .globe-tech{
         display: block;
         position: absolute;
         top: 1100px;
-        left: 100px;
+        left: 180px;
     }
 
     .globe-tech img:first-child{
         width: 400px;
         position: relative;
-        left: 20px;
+        left: 30px;
     }
 
     .tech-cont{
@@ -1276,7 +1270,7 @@ select {
     .girl-tech{
         position: absolute;
         top: 1900px;
-        left: 50px;
+        left: 120px;
         color: white;
         display: block;
     }
@@ -1321,7 +1315,7 @@ select {
     .judging{
         position: absolute;
         top: 2500px;
-        left: 35px;
+        left: 50px;
         display: block;
     }
 
@@ -1349,7 +1343,7 @@ select {
 
     .question-text{
         position: relative;
-        left: 50px;
+        left: 70px;
     }
 
     .question-text p{
@@ -1399,7 +1393,7 @@ select {
     .timeline{
         position: absolute;
         top: 5000px;
-        left: -150px; 
+        left: -110px; 
         display: block;  
     }
 
@@ -1479,7 +1473,7 @@ select {
 .prize{
     position: absolute;
     top: 6000px;
-    left: 100px;
+    left: 150px;
     display: block;
 }
 
@@ -1515,18 +1509,11 @@ select {
 }
 
 
-.privacy{
-    position: absolute;
-    top: 7600px;
-    left: 128px;
-    display: flex;
-}
-
 
 .partners{
     position: absolute;
     top: 7000px;
-    left: -200px;
+    left: -120px;
     display: flex;
 }
 
@@ -1561,13 +1548,13 @@ select {
 .privacy{
     position: absolute;
     top: 7500px;
-    left: 128px;
+    left: 180px;
     display: block;
 }
 
 .privacy-text{
    position: relative;
-   left: -110px;
+   left: -120px;
    display: block;
 }
 
@@ -1576,88 +1563,50 @@ select {
     left: 50px;
 }
 
-.privacy-text p {
-    width: 438px;
-    height: 52px;
-    position: relative;
-    left: 50px;
-}
-
-.privacy-text span{
-    color: #D434FE;
-}
-
 .privacy-box{
     position: absolute;
-    left: 50px;
-    width: auto;
-    height: auto;
-    border: 1px solid #D434FE;
+    left: -5px;
+    width: 100%;
+    height: fit-content;
+    margin: 20px;
+    margin-bottom: 10px;
     padding: 50px;
-   
+    max-width: 300px;
+    border: 1px solid #d434fe;
 }
 
-.privacy-box p {
-    width: 425px;
-    height: 180px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    color: #FFFFFF;
-}
-
-.privacy-box h3{
-    width: 136px;
-    height: 35px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 216.4%;
-    color: #D434FE;
-}
-
-.privacy-box span{
-    color: white;
+.privacy-box p{
+    width: 100%;
 }
 
 .privacy-box ul{
-    width: 401px;
-    height: 60px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    color: #FFFFFF;
-}
-
-.privacy-box button{
-    position: relative;
-    top: 50px;
-    left: calc(50% - 250);
+    width: 100%;
 }
 
 .privacy-images{
     position: absolute;
-    top: 0;
-    left: 700px;
+    top: 1000px;
+    left: 100px;
 }
 
+.privacy-images img{
+    width: 200px;
+}
 
-.lock{
+main{
+    display: block;
+    margin: 0 auto;
     position: relative;
-    top: -400px;
 }
+
 
 footer{
     position: absolute;
-    top: 8500px;
+    top: 8900px;
     display: block;
-    left: -100px;
+    left: -70px;
     text-align: left;
+    padding-top: 20px;
 }
 
 
@@ -1756,9 +1705,6 @@ footer{
     display: none;
 }
 
-
-
-
 .form-contact{
     position: relative;
     left: -80px;
@@ -1780,6 +1726,10 @@ footer{
     top: -150px;
     left: -230px;
     cursor: pointer;
+}
+
+header{
+    margin: 10px;
 }
 
 
