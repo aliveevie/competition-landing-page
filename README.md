@@ -22,7 +22,7 @@ This project is a responsive landing page built using TypeScript, HTML, CSS, and
 
 ## Demo
 
-You can view a live demo of this project [here](#).
+You can view a live demo of this project [here](https://650e4ed8bef72e65833eec61--transcendent-druid-eddde8.netlify.app/).
 
 ## Installation
 
